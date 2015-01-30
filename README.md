@@ -7,3 +7,12 @@ An empty REST framework project.
     pip install -r ./requirements.txt
     python manage.py migrate
     python manage.py runserver
+
+Or...
+
+    pip install Django
+    export PYTHONPATH=.:../django-rest-framework
+    python manage.py migrate
+    python manage.py runserver
+
+Just here as a quick way for me to get a project running when replicating user issues.
