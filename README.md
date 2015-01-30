@@ -1,5 +1,7 @@
 An empty REST framework project.
 
+Just here as a quick way for me to get a project running when replicating user issues.
+
     git clone https://github.com/tomchristie/basic-rest-framework.git example
     cd example
     virtualenv env
@@ -14,5 +16,3 @@ Or...
     export PYTHONPATH=.:../django-rest-framework
     python manage.py migrate
     python manage.py runserver
-
-Just here as a quick way for me to get a project running when replicating user issues.
