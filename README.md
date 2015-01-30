@@ -13,6 +13,6 @@ Just here as a quick way for me to get a project running when replicating user i
 Or...
 
     pip install Django
-    export PYTHONPATH=.:../django-rest-framework
+    export PYTHONPATH=.:~/GitHub/django-rest-framework
     python manage.py migrate
     python manage.py runserver
